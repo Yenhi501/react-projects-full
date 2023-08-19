@@ -49,11 +49,11 @@ export class UseForm extends Component {
           />
         );
       case 2:
-        return <FormPersonalDetails />;
+        return <h1>FormPersonalDetails </h1>;
       case 3:
-        return <Confirm />;
+        return <h1>Confirm </h1>;
       case 4:
-        return <Success />;
+        return <h1>Success </h1>;
       default:
         console.log("This is a multi-step form built with React.");
     }
